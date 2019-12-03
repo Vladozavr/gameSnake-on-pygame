@@ -7,6 +7,7 @@ class Control:
         self.flag_direction = "RIGHT"
         self.flag_pause = True
 
+
     def control(self):
         # управление в зависимости от флага
         for event in pygame.event.get():
